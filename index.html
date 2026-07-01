@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>አዲስ ዐለም | Break Free. Live Productively.</title>
+
+    <meta name="description" content="A free platform helping people overcome addiction and build a productive life.">
+
+    <link rel="icon" href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<!-- Background Animation -->
+<div id="progress-bar"></div>
+<div class="background">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+<div class="cursor-glow"></div>
+<body>
+
+<!--================ NAVIGATION ================-->
+
+<header>
+
+   <nav class="navbar">
+
+    <div class="logo">
+
+        <img src="images/logo.png" alt="Logo">
+
+        <span>አዲስ ዐለም</span>
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+       
+
+        <li><a href="#recovery">Recovery</a></li>
+
+        <li><a href="#journal">Journal</a></li>
+
+        <li><a href="#resources">Resources</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="menu-toggle">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+</nav>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <span class="hero-badge">
+                🌿 Free • Simple • Built to Help
+            </span>
+
+            <h1>
+                A New Beginning
+                <br>
+                Starts Today.
+            </h1>
+
+            <p>
+
+                Welcome to <strong>አዲስ ዐለም</strong>.
+
+                A peaceful place designed to help you overcome addiction,
+                build healthy habits, and become the best version of yourself.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#recovery" class="btn">
+
+                    Start Today
+
+                </a>
+
+                <a href="#about" class="btn secondary">
+
+                    Our Mission
+
+                </a>
+                
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/hero.png" alt="Recovery Illustration">
+
+        </div>
+
+    </div>
+
+</section>
+<div class="wave-divider">
+
+<svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg">
+
+<path fill="#ffffff"
+
+d="M0,64L60,74.7C120,85,240,107,360,106.7C480,107,600,85,720,80C840,75,960,85,1080,101.3C1200,117,1320,139,1380,149.3L1440,160L1440,160L1380,160C1320,160,1200,160,1080,160C960,160,840,160,720,160C600,160,480,160,360,160C240,160,120,160,60,160L0,160Z">
+
+</path>
+
+</svg>
+
+</div>
+<!--================ ABOUT ================-->
+
+<section id="about" class="about">
+
+    <div class="about-image">
+
+        <img src="images/mubarek.png" alt="Mubarek">
+
+    </div>
+
+    <div class="about-content">
+
+        
+
+        <h2>About አዲስ ዐለም</h2>
+
+<p>
+
+Hello, I'm <strong>Mubarek</strong>.
+
+</p>
+
+<p>
+
+I created <strong>አዲስ ዐለም</strong> because I know many people struggle with addiction in silence.
+
+My dream is to build simple tools that help people leave harmful habits, develop discipline, and live a meaningful life.
+
+If this website helps even one person take a step toward a better future, then it has fulfilled its purpose.
+
+</p>
+    </div>
+
+</section>
+
+<!--================ DASHBOARD ================-->
+
+<section class="dashboard" id="dashboard">
+
+    <div class="dashboard-header">
+
+        <span class="section-badge">
+
+            YOUR DASHBOARD
+
+        </span>
+
+        <h2>
+
+            Welcome Back 👋
+
+        </h2>
+
+        <p>
+
+            One day at a time.
+            Keep building your new life.
+
+        </p>
+
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card">
+
+            <h3>🔥 Current Streak</h3>
+
+            <h1 id="streakCount">0</h1>
+
+            <p>Days</p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>✅ Habits</h3>
+
+            <h1 id="habitPercent">0%</h1>
+
+            <p>Completed Today</p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>📝 Reflection</h3>
+
+            <h1 id="reflectionStatus">
+
+                Empty
+
+            </h1>
+
+        </div>
+
+       
+
+    </div>
+
+</section>
+<!--================ WHY ADIS ALEM ================-->
+
+<section class="mission" id="mission">
+
+    <div class="section-title">
+
+        <span>WHY አዲስ አለም?</span>
+
+        <h2>
+            A Better Life Begins With
+            Small Daily Choices.
+        </h2>
+
+        <p>
+
+            Everyone deserves the opportunity to leave harmful habits behind
+            and build a peaceful, meaningful, and productive life.
+
+        </p>
+
+    </div>
+
+    <div class="mission-grid">
+
+        <div class="mission-card">
+
+            <img src="images/focus.png" alt="Focus">
+
+            <h3>Stay Focused</h3>
+
+            <p>
+
+                Build discipline one day at a time through simple daily habits.
+
+            </p>
+
+        </div>
+
+        <div class="mission-card">
+
+            <img src="images/growth.png" alt="Growth">
+
+            <h3>Keep Growing</h3>
+
+            <p>
+
+                Every good decision brings you closer to the person you want to become.
+
+            </p>
+
+        </div>
+
+        <div class="mission-card">
+
+            <img src="images/peace.png" alt="Peace">
+
+            <h3>Find Peace</h3>
+
+            <p>
+
+                Replace harmful habits with purpose, faith, learning, and healthy routines.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!--================ DAILY HABITS ================-->
+
+<section class="wins" id="recovery">
+
+    <div class="section-title">
+
+        <span>DAILY HABITS</span>
+
+        <h2>Today's Progress</h2>
+
+        <p>
+
+            Small consistent actions create extraordinary results.
+
+        </p>
+
+    </div>
+
+    <div class="progress-container">
+
+        <div class="progress-bar">
+
+            <div id="progressFill"></div>
+
+        </div>
+
+        <p id="progressText">
+
+            0% Completed
+
+        </p>
+
+    </div>
+
+    <div class="wins-grid">
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/pray.png">
+            <h3>Prayer</h3>
+        </div>
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/water.png">
+            <h3>Drink Water</h3>
+        </div>
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/exercise.png">
+            <h3>Exercise</h3>
+        </div>
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/read.png">
+            <h3>Read</h3>
+        </div>
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/journal.png">
+            <h3>Reflection</h3>
+        </div>
+
+        <div class="win-card">
+            <input class="habit" type="checkbox">
+            <img src="images/success.png">
+            <h3>Protect Progress</h3>
+        </div>
+
+    </div>
+
+</section>
+<!--================ DAILY REFLECTION ================-->
+
+<section class="reflection" id="journal">
+
+    <div class="reflection-left">
+
+        <img src="images/reflection.png" alt="Reflection">
+
+    </div>
+
+    <div class="reflection-right">
+
+        <span class="section-badge">
+            DAILY REFLECTION
+        </span>
+
+        <h2>
+
+            Take One Minute
+            <br>
+            For Yourself.
+
+        </h2>
+
+        <p>
+
+            Every day is a new opportunity to grow.
+            Write one thing you're grateful for,
+            one lesson you learned,
+            and one goal for tomorrow.
+
+        </p>
+
+        <textarea
+        id="journalText"
+        placeholder="Write your reflection here..."></textarea>
+
+        <button class="btn" id="saveReflection">
+
+            Save Reflection
+
+        </button>
+
+        <p id="journalStatus"></p>
+
+    </div>
+
+</section>
+<!--================ STATISTICS ================-->
+
+<section class="stats">
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="1000">0</h2>
+
+        <p>People Inspired</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="365">0</h2>
+
+        <p>Days of Motivation</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="100">0</h2>
+
+        <p>Free Forever</p>
+
+    </div>
+
+    <div class="stat-box">
+
+        <h2 class="counter" data-target="1">0</h2>
+
+        <p>Mission: Change Lives</p>
+
+    </div>
+
+</section>
+<!--================ FEATURES ================-->
+<!--================ INSPIRATION ================-->
+
+<section class="quote-section">
+
+    <div class="quote-box">
+
+        <h2>🌱 Daily Inspiration</h2>
+
+        <p id="daily-quote">
+
+            Every small step today creates a stronger tomorrow.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="features">
+
+    <div class="card">
+
+        <i class="fa-solid fa-seedling"></i>
+
+        <h3>Recovery</h3>
+
+        <p>
+
+            Simple daily habits that help you stay consistent.
+
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <i class="fa-solid fa-book-open"></i>
+
+        <h3>Journal</h3>
+
+        <p>
+
+            Reflect every day and monitor your progress.
+
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <i class="fa-solid fa-heart"></i>
+
+        <h3>Support</h3>
+
+        <p>
+
+            Encouragement and reminders when you need them most.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!--================ CALENDAR ================-->
+
+<section id="calendar" class="simple-section">
+
+    <h2>📅 My Calendar</h2>
+
+    <p>
+        Plan your day, schedule important events, and stay organized.
+    </p>
+
+    <div class="calendar-container">
+
+        <iframe
+            src="https://calendar.google.com/calendar/embed?src=en.ethiopian%23holiday%40group.v.calendar.google.com&ctz=Africa%2FAddis_Ababa"
+            style="border:0"
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no">
+        </iframe>
+
+    </div>
+
+</section>
+
+<!--================ NEED HELP ================-->
+
+<section class="help-section" id="emergency">
+
+    <div class="help-image">
+
+        <img src="images/help.png" alt="Need Help">
+
+    </div>
+
+    <div class="help-content">
+
+        <span class="section-badge">
+            NEED HELP?
+        </span>
+
+        <h2>
+            Pause.
+            <br>
+            You Don't Have To Give Up.
+        </h2>
+
+        <p>
+
+            An urge is temporary. It will pass.
+            Before making a decision, try these simple steps.
+
+        </p>
+
+        <div class="help-steps">
+
+            <div class="help-item">
+                <span>💧</span>
+                <p>Drink a glass of water.</p>
+            </div>
+
+            <div class="help-item">
+                <span>🚶</span>
+                <p>Walk outside for 5 minutes.</p>
+            </div>
+
+            <div class="help-item">
+                <span>📵</span>
+                <p>Put your phone away for 15 minutes.</p>
+            </div>
+
+            <div class="help-item">
+                <span>🕌</span>
+                <p>Pray or make dua.</p>
+            </div>
+
+            <div class="help-item">
+                <span>📞</span>
+                <p>Reach out to someone you trust.</p>
+            </div>
+
+        </div>
+
+        <button class="btn" id="motivateBtn">
+
+            Encourage Me
+
+        </button>
+
+        <p id="motivationText"></p>
+
+    </div>
+
+</section>
+
+<!-- ================= RESOURCES ================= -->
+
+<section class="resources">
+
+    <div class="section-title">
+
+        <span>KEEP LEARNING</span>
+
+        <h2>Build Your Mind Every Day</h2>
+
+        <p>
+            Discover carefully selected books, educational videos, and Islamic reminders to help you become more disciplined, productive, and closer to Allah.
+        </p>
+
+    </div>
+
+    <div class="resource-grid">
+
+        <!-- Books -->
+
+        <div class="resource-card">
+
+            <div class="resource-icon">
+                📚
+            </div>
+
+            <h3>Recommended Books</h3>
+
+            <p>
+                Read books that improve discipline, productivity, mindset, and faith.
+            </p>
+
+            <a href="books.html" class="resource-btn">
+
+                Explore Library →
+
+            </a>
+
+        </div>
+
+        <!-- Videos -->
+
+        <div class="resource-card">
+
+            <div class="resource-icon">
+                🎥
+            </div>
+
+            <h3>Educational Videos</h3>
+
+            <p>
+                Watch carefully selected videos about focus, habits, discipline, and self-improvement.
+            </p>
+
+            <a href="videos.html" class="resource-btn">
+
+                Start Watching →
+
+            </a>
+
+        </div>
+
+        <!-- Islam -->
+
+        <div class="resource-card">
+
+            <div class="resource-icon">
+                🕌
+            </div>
+
+            <h3>Islamic Reminders</h3>
+
+            <p>
+                Strengthen your heart through the Qur'an, authentic hadith, daily duas, and beneficial reminders.
+            </p>
+
+            <a href="islam.html" class="resource-btn">
+
+                Strengthen Your Faith →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!--================ RESOURCES ================-->
+
+<section id="resources" class="simple-section">
+
+    <h2>Helpful Resources</h2>
+
+    <p class="resource-subtitle">
+        Explore carefully selected resources to improve your life.
+    </p>
+
+    <div class="resource-item">
+
+        <button class="resource-toggle">
+            📖 Recommended Books
+        </button>
+
+        <div class="resource-content">
+
+            <a href="https://jamesclear.com/atomic-habits" target="_blank">Atomic Habits</a>
+
+            <a href="https://www.calnewport.com/books/deep-work/" target="_blank">Deep Work</a>
+
+            <a href="https://www.thecompoundeffect.com/" target="_blank">The Compound Effect</a>
+
+            <a href="https://www.harrishouse.org/books/the-psychology-of-money" target="_blank">The Psychology of Money</a>
+
+        </div>
+
+    </div>
+
+    <div class="resource-item">
+
+        <button class="resource-toggle">
+            🎥 Educational Videos
+        </button>
+
+        <div class="resource-content">
+
+            <a href="https://www.youtube.com/results?search_query=stop+procrastinating" target="_blank">Stop Procrastinating</a>
+
+            <a href="https://www.youtube.com/results?search_query=deep+work" target="_blank">Deep Work</a>
+
+            <a href="https://www.youtube.com/results?search_query=dopamine+detox" target="_blank">Dopamine Detox</a>
+
+            <a href="https://www.youtube.com/results?search_query=self+discipline" target="_blank">Self Discipline</a>
+
+        </div>
+
+    </div>
+
+    <div class="resource-item">
+
+        <button class="resource-toggle">
+            🕌 Islamic Reminders
+        </button>
+
+        <div class="resource-content">
+
+            <a href="https://quran.com/" target="_blank">Read the Qur'an</a>
+
+            <a href="https://sunnah.com/" target="_blank">Authentic Hadith</a>
+
+            <a href="https://lifewithallah.com/" target="_blank">Morning & Evening Adhkar</a>
+
+            <a href="https://duas.com/" target="_blank">Daily Duas</a>
+
+        </div>
+
+    </div>
+
+    <div class="resource-item">
+
+        <button class="resource-toggle">
+            💪 Productivity Tips
+        </button>
+
+        <div class="resource-content">
+
+            <p>✅ Complete your hardest task first.</p>
+
+            <p>✅ Turn off unnecessary notifications.</p>
+
+            <p>✅ Read at least 10 pages every day.</p>
+
+            <p>✅ Review your goals every evening.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section id="contact" class="simple-section">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Have an idea, feedback, or want to collaborate? Feel free to reach out. I'd love to hear from you.
+    </p>
+
+    <div class="contact-info">
+
+        <div class="contact-item">
+            <strong>👤 Name</strong>
+            <p>Mubarek Mohammed</p>
+        </div>
+
+        <div class="contact-item">
+            <strong>📧 Email</strong>
+            <p>
+                <a href="mailto:ictmubarek@gmail.com">
+                    ictmubarek@gmail.com
+                </a>
+            </p>
+        </div>
+
+        <div class="contact-item">
+            <strong>💬 Telegram</strong>
+            <p>
+                <a href="https://t.me/muba2513" target="_blank">
+                    @muba2513
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="contact-buttons">
+
+        <a href="mailto:ictmubarek@gmail.com" class="btn">
+            📧 Send Email
+        </a>
+
+        <a href="https://t.me/muba2513" target="_blank" class="btn secondary-btn">
+            💬 Message on Telegram
+        </a>
+
+    </div>
+
+</section>
+<!--================ DID YOU KNOW ================-->
+
+<section id="research" class="simple-section">
+
+    <h2>🧠 Did You Know?</h2>
+
+    <p class="section-subtitle">
+        Small facts backed by research can help you build better habits and make wiser decisions.
+    </p>
+
+    <div class="research-grid">
+
+        <div class="research-card">
+
+            <img src="images/research/sleep.jpg" alt="Sleep">
+
+            <h3>😴 Sleep Improves Learning</h3>
+
+            <p>
+                Getting enough sleep helps your brain strengthen memories, improve concentration, and perform better the next day.
+            </p>
+
+        </div>
+
+        <div class="research-card">
+
+            <img src="images/research/exercise.jpg" alt="Exercise">
+
+            <h3>🏃 Exercise Boosts Focus</h3>
+
+            <p>
+                Regular physical activity supports brain health and can improve attention, mood, and long-term cognitive performance.
+            </p>
+
+        </div>
+
+        <div class="research-card">
+
+            <img src="images/research/reading.jpg" alt="Reading">
+
+            <h3>📚 Reading Expands Knowledge</h3>
+
+            <p>
+                Reading consistently strengthens vocabulary, comprehension, and critical thinking over time.
+            </p>
+
+        </div>
+
+        <div class="research-card">
+
+            <img src="images/research/habits.jpg" alt="Habits">
+
+            <h3>🌱 Small Habits Matter</h3>
+
+            <p>
+                Small, repeated actions are more likely to produce lasting change than relying only on motivation.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <img src="images/logo.png" class="footer-logo" alt="Logo">
+
+    <h3>አዲስ አለም</h3>
+
+    <p>
+
+        Helping people overcome addiction and build a productive life.
+
+    </p>
+
+    <p class="footer-mission">
+
+        "A New Beginning Starts Today."
+
+    </p>
+
+    <p>
+
+        Made with ❤️ by Mubarek
+
+    </p>
+
+    <p>
+
+        © 2026 አዲስ አለም. All Rights Reserved.
+
+    </p>
+
+</footer>
+<script src="js/app.js"></script>
+<!--================ EMERGENCY BUTTON ================-->
+
+<button id="helpButton" class="help-button">
+
+🆘 Need Help?
+
+</button>
+
+<!--================ EMERGENCY MODAL ================-->
+
+<div id="helpModal" class="help-modal">
+
+    <div class="help-box">
+
+        <button id="closeHelp" class="close-help">
+
+            &times;
+
+        </button>
+
+        <h2>
+
+            🌿 Stay Calm
+
+        </h2>
+
+        <p>
+
+            This feeling is temporary.
+            You are stronger than this moment.
+
+        </p>
+
+        <h3 id="countdown">
+
+            60
+
+        </h3>
+
+        <p>
+
+            Take slow, deep breaths.
+
+        </p>
+
+        <div class="help-actions">
+
+            <div>
+
+                💧 Drink a glass of water
+
+            </div>
+
+            <div>
+
+                🚶 Walk for 5 minutes
+
+            </div>
+
+            <div>
+
+                🙏 Pray or make dua
+
+            </div>
+
+            <div>
+
+                📖 Read a few verses of the Qur'an
+
+            </div>
+
+            <div>
+
+                📵 Put your phone away
+
+            </div>
+
+        </div>
+
+        <button id="startBreathing" class="btn">
+
+            Start Breathing
+
+        </button>
+
+    </div>
+
+</div>
+</body>
+
+</html>
